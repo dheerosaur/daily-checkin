@@ -8,6 +8,9 @@ from nose.tools import assert_equal
 
 
 def two_sum_set(nums, target):
+    """
+    This is a pretty straight forward set-lookup problem
+    """
     seen = set()
     for num in nums:
         if num in seen:
